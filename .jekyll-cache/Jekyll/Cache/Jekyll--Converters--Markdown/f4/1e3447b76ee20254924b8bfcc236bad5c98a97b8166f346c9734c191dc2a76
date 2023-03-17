@@ -1,0 +1,34 @@
+I"<h1 id="english">English</h1>
+
+<h1 id="our-team">Our Team</h1>
+
+<h2 id="name-3">Name 3</h2>
+<p><a href="#" class="image"><img src="assets/images/bob-johnson.jpg" alt="" /></a></p>
+
+<head>
+	<title>Our Team</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<div class="team-container">
+		<div class="team-card">
+			<img src="https://via.placeholder.com/150" alt="John Doe" />
+			<h2>Name 1</h2>
+			<h3>Title</h3>
+			<p>Responsible for management and strategic planning of the company. Works closely with other team members to ensure successful operations.</p>
+		</div>
+		<div class="team-card">
+			<img src="https://via.placeholder.com/150" alt="Jane Smith" />
+			<h2>Jane Smith</h2>
+			<h3>CMO</h3>
+			<p>Oversees all marketing efforts, including branding, advertising, and public relations. Develops and executes marketing strategies to drive business growth.</p>
+		</div>
+		<div class="team-card">
+			<img src="https://via.placeholder.com/150" alt="Bob Johnson" />
+			<h2>Bob Johnson</h2>
+			<h3>CTO</h3>
+			<p>Manages all technical aspects of the company, including software development, IT infrastructure, and data management. Ensures the company's technology is up-to-date and able to support the business's needs.</p>
+		</div>
+	</div>
+</body>
+:ET

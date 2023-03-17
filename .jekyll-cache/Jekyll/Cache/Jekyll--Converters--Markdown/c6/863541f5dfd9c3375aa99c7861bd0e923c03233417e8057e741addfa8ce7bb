@@ -1,0 +1,83 @@
+I"î	<h1 id="english">English</h1>
+
+<h1 id="our-team">Our Team</h1>
+
+<h2 id="name-1">Name 1</h2>
+<p><a href="#" class="image"><img src="assets/images/john-doe.jpg" alt="" /></a></p>
+<ul>
+  <li>Responsible for overall management and strategic planning of the company.</li>
+  <li>Works closely with other team members to ensure successful operations.</li>
+</ul>
+
+<h2 id="name-2">Name 2</h2>
+<p><a href="#" class="image"><img src="assets/images/jane-smith.jpg" alt="" /></a></p>
+<ul>
+  <li>Oversees all marketing efforts, including branding, advertising, and public relations.</li>
+  <li>Develops and executes marketing strategies to drive business growth.</li>
+</ul>
+
+<h2 id="name-3">Name 3</h2>
+<p><a href="#" class="image"><img src="assets/images/bob-johnson.jpg" alt="" /></a></p>
+
+<head>
+    <title>Our Team</title>
+    <style>
+      /* General Styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Profile Card Styling */
+      .card {
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 50%;
+      }
+
+      /* Page Layout Styling */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+<body>
+    <h1>Our Team</h1>
+
+    <div class="container">
+      <div class="card">
+        <img src="person1.jpg" alt="Person 1" />
+        <h2>John Doe</h2>
+        <p class="title">CEO</p>
+        <p>Responsible for overall management and strategic planning of the company. Works closely with other team members to ensure successful operations.</p>
+      </div>
+
+      <div class="card">
+        <img src="person2.jpg" alt="Person 2" />
+        <h2>Jane Smith</h2>
+        <p class="title">CMO</p>
+        <p>Oversees all marketing efforts, including branding, advertising, and public relations. Develops and executes marketing strategies to drive business growth.</p>
+      </div>
+
+      <div class="card">
+        <img src="person3.jpg" alt="Person 3" />
+        <h2>Bob Johnson</h2>
+        <p class="title">CTO</p>
+        <p>Manages all technical aspects of the company, including software development, IT infrastructure, and data management. Ensures the company's technology is up-to-date and able to support the business's needs.</p>
+      </div>
+    </div>
+  </body>
+:ET

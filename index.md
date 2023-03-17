@@ -2,6 +2,9 @@
 layout: default
 ---
 
+ <!-- <object id="swiss-map" type="image/svg+xml" data="assets/images/swiss_map.svg"></object> -->
+
+
 <!-- Section -->
 <section>
 	<header class="major">
@@ -22,7 +25,9 @@ layout: default
 			<span class="icon fa-paper-plane"></span>
 			<div class="content">
 				<h3>Patient and public involvement</h3>
-				<p>SwissPedHealth places major importance on the involvement of all patients, family, and the public. Openness and fairness is a key requirement to build a productive and functional personalised health network. Learn how your involvement can help us to deliver world-class treatments, today and into the future.</p>
+				<p>SwissPedHealth places major importance on the involvement of all patients, family, and the public. Openness and fairness is a key requirement to build a productive and functional personalised health network. Learn how your involvement can help us to deliver world-class treatments, today and into the future.
+				<a href="{% link nested_project_ppi.md %}"> &#10132; Read more</a>
+				</p>
 			</div>
 		</article>
 		<article>
@@ -166,5 +171,12 @@ layout: default
 				</p>
 		</article>
 	</div>
+
+
+
+<!-- <div id="map"> -->
+<!--      <object type="image/svg+xml" data="assets/images/Schweizer_Karte_mit_Kantons-_und_Hauptstadtbezeichnungen.svg"></object> -->
+<!-- </div> -->
+
 
 </section>
