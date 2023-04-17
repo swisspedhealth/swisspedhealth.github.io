@@ -21,6 +21,7 @@
 	                            <link rel="manifest" href="./assets/images/logos/favicon_package_v0.16_bw/site.webmanifest" >
 	 <meta name="msapplication-TileColor" content="#da532c" />
 	 <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./assets/js/script.js">
 </head>
 <body>
 
@@ -33,30 +34,43 @@
 
                 <!-- Header -->
   <header id="header">
-    <a href="/" class="logo"><strong>SwissPedHealth</strong> by SPHN & PHRT</a>
-    <ul class="icons">
-      
-      <li><a href="https://twitter.com/meddlaw" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-      
-      
-      <li><a href="https://scholar.google.com/citations?hl=de&user=RPBxP1wAAAAJ" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
-      
-      
-      
-      
-      
-      
-      
-      <li><a href="https://github.com/swisspedhealth" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+    <a href="/" class="logo"><strong>SwissPedHealth</strong> by SPHN & PHRT
+	</a>
+
+
+    <ul class="icons"> 
+      <li><a href="" class="icon"><span class="label">Home</span></a></li>
+	  <li><a href="about.html" class="icon"><span class="label">About</span></a></li>
+	  <li><a href="/#news" class="icon"><span class="label">News</span></a></li>
+	  <li><a href="/study_overview" class="icon"><span class="label">Projects</span></a></li>
+	  <li><a href="/#contact" class="icon"><span class="label">Contact</span></a></li>
+
+	  <!-- To remove label text for incons, twiter,github,etc: see `.icon > .label` in assets/css/main.css --> 
       
       
       
-      <li><a href="https://www.linkedin.com/in/dylan-lawless-human-genomics/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+      
+      
+      
+      
+      
+      
       
     </ul>
   </header>
 
+
+	  <div class="logos"style="margin-top:10px; margin-bottom:-30px">
+		    <!-- <a href=""> -->
+			    <img src="assets/images/logos/PHRT_Logo_transparent_50px.png" alt="Logo image" width="150" height="38.5" style="text-decoration: none; margin-bottom:0px"/>
+			  <!-- </a> -->
+		    <!-- <a href=""> -->
+			    <img src="assets/images/logos/SPHN-Logo-SIB-Colors-155x111.png" alt="Logo image" width="93" height="66" style="text-decoration: none; margin-bottom:-10px" />
+		  <!-- </a> -->
+	  </div>
+
                 <!-- Banner -->
+
   <section id="banner">
     <div class="content">
       <header>
@@ -70,17 +84,109 @@
       </ul>
     </div>
     <span class="image object">
-      <img src="assets/images/cdc-oGJQt3-X_FY-unsplash.jpg" alt="" />
+      <!-- <img src="assets/images/cdc-oGJQt3-X_FY-unsplash.jpg" alt="" /> -->
+      <img src="assets/images/logos/logo_picture.jpg" alt="" />
     </span>
+
+
+    <!-- <div class="container"> -->
+    <!--   <div class="img-wrapper"> -->
+    <!--     <img src="https://pluspng.com/img-png/switzerland-png-swiss-map-switzerland-map-svizzera-suisse-europe-960.png" alt="Switzerland map"> -->
+    <!--   <!-1- <img src="assets/images/cdc-oGJQt3-X_FY-unsplash.jpg" alt="" /> -1-> -->
+    <!--     <div class="background"></div> -->
+    <!--   </div> -->
+    <!--   <div class="animation"> -->
+    <!--     <div class="circle"></div> -->
+    <!--     <div class="circle"></div> -->
+    <!--     <div class="circle"></div> -->
+    <!--     <div class="circle"></div> -->
+    <!--     <div class="circle"></div> -->
+    <!--     <div class="circle"></div> -->
+    <!--     <div class="circle"></div> -->
+    <!--     <div class="circle"></div> -->
+    <!--   </div> -->
+    <!-- </div> -->
+	<!-- <script src="./assets/js/script.js"></script> -->
+
+
   </section>
 
 
                 <p><!-- <object id="swiss-map" type="image/svg+xml" data="assets/images/swiss_map.svg"></object> --></p>
 
-<!-- Section -->
+<!-- Section Information -->
 <section>
 	<header class="major">
-		<h2>Scientific overview</h2>
+		<h2>Information</h2>
+	</header>
+	<div class="posts">
+		<article>
+			<a href="#" class="image"><img src="assets/images/kelly-sikkema-fvxG34jv6Gc-unsplash.jpg" alt="" /></a>
+			<h3>Patient involvement</h3>
+			<p>
+			We involve patients in the design and application of our research project to ensure their opinions are included and to better understand their needs and experiences.
+			</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/cdc-y--8fqaK1kY-unsplash.jpg" alt="" /></a>
+			<h3>Personalised health</h3>
+			<p>
+			We tailor treatments based on scientific evidence using genomics, multi-omics, and other forms of analysis to provide personalized health care to our patients.
+			</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/national-cancer-institute-rHfsPolwIgk-unsplash.jpg" alt="" /></a>
+			<h3>Modern technology</h3>
+			<p>
+			We rely on modern technology such as DNA analysis, proteomics, statistics, high-performance computing, and medical knowledge interpretation to develop new medical systems.
+			</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/national-cancer-institute-E9Ucfek-Lp0-unsplash.jpg" alt="" /></a>
+			<h3>Basic science</h3>
+			<p>
+			We focus on basic science research to understand the fundamental mechanisms underlying disease and to develop new diagnostic tools and treatments based on this knowledge.
+			</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/chris-montgomery-smgTvepind4-unsplash.jpg" alt="" /></a>
+			<h3>Cross collaboration</h3>
+			<p>
+			We collaborate between multiple university hospitals and university research groups to combine resources, expertise, and knowledge for cutting-edge medical research.
+			</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="assets/images/headway-5QgIuuBxKwM-unsplash.jpg" alt="" /></a>
+			<h3>How your contribution is used</h3>
+			<p>
+			Your contribution to our hospital research project will be used to improve how we diagnose patients, make research breakthroughs, and develop new treatments for diseases.
+			</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+	</div>
+</section>
+
+<!-- Section Projects -->
+<section>
+	<header class="major">
+		<h2>Projects</h2>
 	</header>
 	<div class="features">
 		<article>
@@ -150,79 +256,10 @@
 	</div>
 </section>
 
-<!-- Section -->
+<!-- Section News-->
 <section>
 	<header class="major">
-		<h2>Patient information</h2>
-	</header>
-	<div class="posts">
-		<article>
-			<a href="#" class="image"><img src="assets/images/kelly-sikkema-fvxG34jv6Gc-unsplash.jpg" alt="" /></a>
-			<h3>Patient involvement</h3>
-			<p>
-			We involve patients in the design and application of our research project to ensure their opinions are included and to better understand their needs and experiences.
-			</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/cdc-y--8fqaK1kY-unsplash.jpg" alt="" /></a>
-			<h3>Personalised health</h3>
-			<p>
-			We tailor treatments based on scientific evidence using genomics, multi-omics, and other forms of analysis to provide personalized health care to our patients.
-			</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/national-cancer-institute-rHfsPolwIgk-unsplash.jpg" alt="" /></a>
-			<h3>Modern technology</h3>
-			<p>
-			We rely on modern technology such as DNA analysis, proteomics, statistics, high-performance computing, and medical knowledge interpretation to develop new medical systems.
-			</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/national-cancer-institute-E9Ucfek-Lp0-unsplash.jpg" alt="" /></a>
-			<h3>Basic science</h3>
-			<p>
-			We focus on basic science research to understand the fundamental mechanisms underlying disease and to develop new diagnostic tools and treatments based on this knowledge.
-			</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/chris-montgomery-smgTvepind4-unsplash.jpg" alt="" /></a>
-			<h3>Cross collaboration</h3>
-			<p>
-			We collaborate between multiple university hospitals and university research groups to combine resources, expertise, and knowledge for cutting-edge medical research.
-			</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/headway-5QgIuuBxKwM-unsplash.jpg" alt="" /></a>
-			<h3>How your contribution is used</h3>
-			<p>
-			Your contribution to our hospital research project will be used to improve how we diagnose patients, make research breakthroughs, and develop new treatments for diseases.
-			</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-	</div>
-</section>
-
-<!-- Section -->
-<section>
-	<header class="major">
-		<h2 id="news">In the news</h2>
+		<h2 id="news">News</h2>
 	</header>
 	<div class="posts">
 		<article>
@@ -243,7 +280,6 @@
 				</p>
 		</article>
 	</div>
-
 
 
 <!-- <div id="map"> -->
@@ -276,7 +312,7 @@
           <ul>
             <li><a href="/">Homepage</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="patient_checklist.html">Patient checklist</a></li>
+            <!-- <li><a href="patient_checklist.html">Patient checklist</a></li> -->
             <li>
               <span class="opener">Projects</span>
               <ul>
