@@ -5,69 +5,73 @@ layout: default
  <!-- <object id="swiss-map" type="image/svg+xml" data="assets/images/swiss_map.svg"></object> -->
 
 <!-- Section Information -->
+
+
+
+
 <section>
 	<header class="major">
 		<h2>Information</h2>
 	</header>
 	<div class="posts">
 		<article>
-			<a href="#" class="image"><img src="assets/images/kelly-sikkema-fvxG34jv6Gc-unsplash.jpg" alt="" /></a>
+			<a href="{% link information_patient_involvement.md %}" class="image"><img src="assets/images/kelly-sikkema-fvxG34jv6Gc-unsplash.jpg" alt="" /></a>
 			<h3>Patient involvement</h3>
 			<p>
 			We involve patients in the design and application of our research project to ensure their opinions are included and to better understand their needs and experiences.
 			</p>
 			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
+				<li><a href="{% link information_patient_involvement.md %}" class="button">More</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/cdc-y--8fqaK1kY-unsplash.jpg" alt="" /></a>
+			<a href="{% link information_personalised_health.md %}" class="image"><img src="assets/images/cdc-y--8fqaK1kY-unsplash.jpg" alt="" /></a>
 			<h3>Personalised health</h3>
 			<p>
 			We tailor treatments based on scientific evidence using genomics, multi-omics, and other forms of analysis to provide personalized health care to our patients.
 			</p>
 			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
+				<li><a href="{% link information_personalised_health.md %}" class="button">More</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/national-cancer-institute-rHfsPolwIgk-unsplash.jpg" alt="" /></a>
+			<a href="{% link information_modern_technology.md %}" class="image"><img src="assets/images/national-cancer-institute-rHfsPolwIgk-unsplash.jpg" alt="" /></a>
 			<h3>Modern technology</h3>
 			<p>
 			We rely on modern technology such as DNA analysis, proteomics, statistics, high-performance computing, and medical knowledge interpretation to develop new medical systems.
 			</p>
 			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
+				<li><a href="{% link information_modern_technology.md %}" class="button">More</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/national-cancer-institute-E9Ucfek-Lp0-unsplash.jpg" alt="" /></a>
+			<a href="{% link information_basic_science.md %}" class="image"><img src="assets/images/national-cancer-institute-E9Ucfek-Lp0-unsplash.jpg" alt="" /></a>
 			<h3>Basic science</h3>
 			<p>
 			We focus on basic science research to understand the fundamental mechanisms underlying disease and to develop new diagnostic tools and treatments based on this knowledge.
 			</p>
 			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
+				<li><a href="{% link information_basic_science.md %}" class="button">More</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/chris-montgomery-smgTvepind4-unsplash.jpg" alt="" /></a>
+			<a href="{% link information_cross_collaboration.md %}" class="image"><img src="assets/images/chris-montgomery-smgTvepind4-unsplash.jpg" alt="" /></a>
 			<h3>Cross collaboration</h3>
 			<p>
 			We collaborate between multiple university hospitals and university research groups to combine resources, expertise, and knowledge for cutting-edge medical research.
 			</p>
 			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
+				<li><a href="{% link information_cross_collaboration.md %}" class="button">More</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/headway-5QgIuuBxKwM-unsplash.jpg" alt="" /></a>
+			<a href="{% link information_how_your_contribution.md %}" class="image"><img src="assets/images/headway-5QgIuuBxKwM-unsplash.jpg" alt="" /></a>
 			<h3>How your contribution is used</h3>
 			<p>
 			Your contribution to our hospital research project will be used to improve how we diagnose patients, make research breakthroughs, and develop new treatments for diseases.
 			</p>
 			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
+				<li><a href="{% link information_how_your_contribution.md %}" class="button">More</a></li>
 			</ul>
 		</article>
 	</div>
@@ -76,14 +80,14 @@ layout: default
 <!-- Section Projects -->
 <section>
 	<header class="major">
-		<h2>Projects</h2>
+		<h2 id="projects">Projects</h2>
 	</header>
 	<div class="features">
 		<article>
 			<span class="icon fa-diamond"></span>
 			<div class="content">
 				<h3>Summary of major projects</h3>
-				<p>Our work is demonstrated by a nuber of Lighthous and Nested projects, with an emphasis on 
+				<p>Our work is demonstrated by a number of Lighthouse and Nested projects, with an emphasis on 
 				patient and public involvement.
 				<a href="{% link study_overview.md %}"> &#10132; Read more</a>
 				</p>
@@ -146,8 +150,7 @@ layout: default
 	</div>
 </section>
 
-<!-- Section News-->
-<section>
+<!-- Section News--> <section>
 	<header class="major">
 		<h2 id="news">News</h2>
 	</header>
@@ -177,4 +180,35 @@ layout: default
 <!-- </div> -->
 
 
+</section>
+
+<!-- Section -->
+<section>
+<header class="major">
+<h2 id="contact">Get in touch</h2>
+</header>
+<div class="posts">
+<article>
+  <h3>Contact</h3>
+  <p>For clinic appointments please consult your physician. For research inquiries please use the contact information provided. For patient involvement please contact xyz@email.</p>
+  <ul class="contact">
+    <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
+    <li class="fa-phone">{{ site.phone }}</li>
+    <li class="fa-home">{{ site.street_address }}<br />
+    {{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
+    {{ site.country }}</li>
+  </ul>
+</article>
+
+<article>
+<h3>SPHN</h3>
+<p>SwissPedHealth is part of the Swiss Personalized Health Network (SPHN). 
+You can read more about SPHN on their website <a href="https://sphn.ch">sphn.ch</a>.</p>
+
+<h3>PHRT</h3>
+<p>SwissPedHealth is part of Personalized Health and Related Technologies (PHRT). 
+You can read more about SPHN on their website <a href="https://www.sfa-phrt.ch">sfa-phrt.ch</a>.</p>
+</article>
+
+</div>
 </section>

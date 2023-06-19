@@ -5,11 +5,11 @@
 
 
     <ul class="icons"> 
-      <li><a href="{{ / }}" class="icon"><span class="label">Home</span></a></li>
+      <li><a href="{{ '/' }}" class="icon"><span class="label">Home</span></a></li>
 	  <li><a href="{{ 'about.html' | site.baseurl }}" class="icon"><span class="label">About</span></a></li>
-	  <li><a href="{{ '/#news' | site.baseurl }}" class="icon"><span class="label">News</span></a></li>
-	  <li><a href="{{ '/study_overview' | site.baseurl }}" class="icon"><span class="label">Projects</span></a></li>
-	  <li><a href="{{ '/#contact' | site.baseurl }}" class="icon"><span class="label">Contact</span></a></li>
+	  <li><a href="{{ '/index.html#news' | site.baseurl }}" class="icon"><span class="label">News</span></a></li>
+	  <li><a href="{{ '/index.html#projects' | site.baseurl }}" class="icon"><span class="label">Projects</span></a></li>
+	  <li><a href="{{ '/index.html#contact' | site.baseurl }}" class="icon"><span class="label">Contact</span></a></li>
 
 	  <!-- To remove label text for incons, twiter,github,etc: see `.icon > .label` in assets/css/main.css --> 
       {% if site.twitter_url %}
