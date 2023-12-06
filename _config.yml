@@ -7,12 +7,12 @@ description: Pediatric Personalized Research Network Switzerland (SwissPedHealth
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
-street_address: Haus der Akademien Laupenstrasse 7
-city: Bern
+street_address: Kinderspital Zürich - Eleonorenstiftung
+city: Zürich
 # state: Bern
-zip_code: 3001
+zip_code: 8032
 country: Switzerland
-phone: +41 21 693 18 74
+phone: 044 266 71 11
 
 # Social settings
 # 500px_url:
