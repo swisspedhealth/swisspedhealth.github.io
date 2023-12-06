@@ -1,0 +1,33 @@
+I"�
+<h2 id="content">Patient and public involvement (PPI).</h2>
+
+<h3 id="study-overview">Study Overview</h3>
+<p>This project focuses on integrating child health data into a national data stream, SwissPedHealth. It aims to enhance healthcare quality for children by utilizing routine data from children’s hospitals for research. A key component is the creation of a pediatric health dictionary, SwissPedData, which standardizes information gathered during hospital visits.</p>
+
+<h3 id="study-objectives">Study Objectives</h3>
+<ol>
+  <li>Develop a national data stream integrating routine data from children’s hospitals for research.</li>
+  <li>Employ SwissPedData for consistent data collection and integration with other sources.</li>
+  <li>Implement research projects, including a lighthouse project on rare diseases in critically ill children, utilizing advanced computational methods.</li>
+  <li>Focus on common child health issues like obesity, cancer, lung disease, and antibiotics through nested projects.</li>
+</ol>
+
+<h3 id="methods">Methods</h3>
+<p>Data will be collected from university children’s hospitals in Geneva, Lausanne, Basel, Bern, and Zurich. The project includes taking clinical data and blood samples to study underlying biological mechanisms in children with severe, rare diseases. Machine learning will be used to link clinical and biological data for pattern identification.</p>
+
+<h3 id="significance">Significance</h3>
+<p>The project aims to improve child health care quality through personalized care, informed policy decisions, and planning of therapeutic studies. It also seeks to better understand and treat common and rare pediatric diseases.</p>
+
+<h3 id="patient-and-public-involvement-ppi-activities">Patient and Public Involvement (PPI) Activities</h3>
+<p>Involvement of diverse PPI representatives in research.
+Review and assessment of study protocols and documents.
+Collaboration in recruitment and evaluation strategies.
+Dissemination of research results with a focus on patient and public understanding.
+Implementation of the PPI framework for future studies.</p>
+
+<h3 id="original-description">Original Description</h3>
+<p>The PPI project addresses the critical need for comprehensive child health data to improve diagnostics, treatments, and overall healthcare quality. 
+Through SwissPedHealth, data from children’s hospitals will be used for research. 
+The project also includes a lighthouse project for detecting rare diseases in critically ill children and nested projects addressing common health issues. 
+A multidisciplinary team leads this initiative, emphasizing patient and public involvement to enhance the research’s impact and relevance.</p>
+:ET
