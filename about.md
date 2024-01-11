@@ -40,7 +40,8 @@ SwissPedHealth will demonstrate the power of our pediatric data stream through s
 - **Nested Projects:** Addressing common child health issues such as obesity, cancer, lung disease, and antibiotic use through data-driven research.
 
 ## Our Team
-SwissPedHealth is led by a multidisciplinary team that includes partners from SPHN, PHRT, and patient and public representatives. 
+SwissPedHealth is led by Luregn Schlapbach (Kispi Zurich) and Julia Vogt (ETHZ).
+We are a multidisciplinary team that includes partners from SPHN, PHRT, and patient and public representatives. 
 This collaborative effort ensures that we obtain and utilize pediatric data from hospitals, federal administration, and research in an organized, systematic manner.
 
 At SwissPedHealth, we are committed to high-quality, patient-focused research that advances pediatric healthcare in Switzerland. 
