@@ -2700,7 +2700,8 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				/* padding: 0 1em 0 0; */
+				/* padding: 0 0 0 0; */
 			}
 
 				ul.icons li:last-child {
@@ -2713,6 +2714,7 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 
 					ul.icons li .icon:before {
 						font-size: 1.25em;
+						/* font-size: 1em; */
 					}
 
 		ul.contact {
@@ -3884,7 +3886,8 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 
 				#header .icons {
 					height: 5em;
-					line-height: 5em;
+					/* line-height: 5em; */
+					line-height: 3em;
 					position: absolute;
 					right: -0.5em;
 					top: 0;
