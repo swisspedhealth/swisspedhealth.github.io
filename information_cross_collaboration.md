@@ -15,7 +15,7 @@ Collaborations with world-leading scientists are central to our approach. By wor
 
 ## Protecting Patient Data
 
-While collaboration is central to our work, we're equally committed to ensuring the protection and privacy of patient data. We've established a controlled research infrastructure that allows us to securely store and manage patient data (<BioMedIT.ch>). This infrastructure ensures that data is accessible to authorized researchers, while stringent privacy safeguards prevent unauthorized access.
+While collaboration is central to our work, we're equally committed to ensuring the protection and privacy of patient data. We've established a controlled research infrastructure that allows us to securely store and manage patient data ([www.BioMedIT.ch](www.BioMedIT.ch)). This infrastructure ensures that data is accessible to authorized researchers, while stringent privacy safeguards prevent unauthorized access.
 
 ## Benefits of Collaboration
 

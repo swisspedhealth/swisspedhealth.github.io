@@ -41,7 +41,7 @@ Pilot automatic extraction of treatment data from EHRs and controlled import int
 ## Original
 NP2: Cancer in children: improving data flows to and from the Swiss Childhood Cancer Registry (ChCR; Responsible: Kuehni). 
 
-Background: The ChCR (<kinderkrebsregister.ch>) assesses cancer incidence, treatment and survival since 1976. 
+Background: The ChCR ([kinderkrebsregister.ch](www.kinderkrebsregister.ch)) assesses cancer incidence, treatment and survival since 1976. 
 Registration is complete (>95%) for children, but poorer for those diagnosed at age 16-19 years. 
 Although the ChCR receives the data from EHRs, data entry and quality control are manual, leading to delays in registration and duplication of work. This problem is common for clinical registries. 
 
