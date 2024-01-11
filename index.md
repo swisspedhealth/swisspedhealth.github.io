@@ -190,7 +190,11 @@ layout: default
 <div class="posts">
 <article>
   <h3>Contact</h3>
-  <p>For clinic appointments please consult your physician. For research inquiries please use the contact information provided. For patient involvement please contact xyz@email.</p>
+  <p>
+  <!-- For clinic appointments please consult your physician. --> 
+  For research inquiries please use the contact information provided. 
+  <!-- For patient involvement please contact xyz@email. -->
+  </p>
   <ul class="contact">
     <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
     <li class="fa-phone">{{ site.phone }}</li>

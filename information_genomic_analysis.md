@@ -24,5 +24,5 @@ By using genomic analysis, we can move beyond a "one-size-fits-all" approach to 
 
 ## Conclusion
 
-Genomic analysis is an indispensable tool in modern healthcare research. Through its use in the SwissPedHealth project, we're able to advance our understanding of disease, improve our diagnostic capabilities, and discover new treatments, ultimately enhancing the care we provide to our patients.
+Genomic analysis is an indispensable tool in modern healthcare research. Through its use in the SwissPedHealth project, we're able to advance our understanding of rare disease, improve our diagnostic capabilities, and discover new treatments, ultimately enhancing the care we provide to our patients.
 

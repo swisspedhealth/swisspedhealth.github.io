@@ -3,7 +3,7 @@ layout: page
 title: Machine Learning in Healthcare
 ---
 
-At SwissPedHealth, while our current focus is on providing critical care based on the best practices in clinical medicine, we're also looking towards the future. Our research employs machine learning to design innovative approaches that promise to revolutionize the way we diagnose and treat diseases. We are testing new machine learning approaches to detect causes of disease more rapidly than traditional approaches so that we can, in future, supplement the routine basic care provided in clinics.
+At SwissPedHealth, while our current focus is on providing care based on the best practices in clinical medicine, we're also looking towards the future. Our research employs machine learning to design innovative approaches that promise to revolutionize the way we diagnose and treat diseases. We are testing new machine learning approaches to detect causes of rare disease in critically sick patients more rapidly than traditional approaches so that we can, in future, supplement the routine basic care provided in clinics.
 
 ## The Power of Machine Learning
 
@@ -11,7 +11,7 @@ Machine learning is a form of artificial intelligence that enables computers to 
 
 ## Machine Learning at SwissPedHealth
 
-At SwissPedHealth, machine learning is a critical component of our research and clinical operations. We use machine learning algorithms to analyze a wide range of data, from genetic information to routine clinical data gathered daily in clinics.
+At SwissPedHealth, and in the Lighthouse project in particular, machine learning is a critical component of our research and clinical operations. We use machine learning algorithms to analyze a wide range of data, from genetic information to routine clinical data gathered daily in clinics.
 
 ## Machine Learning and Genomics
 
@@ -28,4 +28,6 @@ By combining machine learning analysis of genomic and clinical data, we can tail
 ## Conclusion
 
 Machine learning is revolutionizing healthcare, and SwissPedHealth is at the forefront of this revolution. By building new applications for machine learning, we will be able to provide more accurate diagnoses, develop new treatments, and deliver personalized care to our patients.
+
+
 

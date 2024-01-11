@@ -3,11 +3,11 @@ layout: page
 title: Cross Collaboration
 ---
 
-At SwissPedHealth, we believe that collaboration is key to advancing medical research. We therefore foster strong partnerships between multiple university hospitals and university research groups, leveraging combined resources, expertise, and knowledge to drive cutting-edge medical research.
+At SwissPedHealth, we believe that collaboration is key to advancing pediatric medical research. We therefore foster strong partnerships between multiple university hospitals and university research groups, leveraging combined resources, expertise, and knowledge to drive cutting-edge medical research.
 
 ## Collaborative Research Environment
 
-Our collaborative research environment brings together leading Swiss hospitals and universities, including the University of Zurich, ETH Zurich, and EPFL. By working together, we're able to harness a diverse range of expertise and perspectives, allowing us to tackle complex research questions and develop innovative solutions.
+Our collaborative research environment brings together leading Swiss children's hospitals and universities, including the University of Bern, ETH Zurich, and EPFL. By working together, we're able to harness a diverse range of expertise and perspectives, allowing us to tackle complex research questions and develop innovative solutions.
 
 ## Harnessing Collaborations
 
@@ -15,7 +15,7 @@ Collaborations with world-leading scientists are central to our approach. By wor
 
 ## Protecting Patient Data
 
-While collaboration is central to our work, we're equally committed to ensuring the protection and privacy of patient data. We've established a controlled research infrastructure that allows us to securely store and manage patient data. This infrastructure ensures that data is accessible to authorized researchers, while stringent privacy safeguards prevent unauthorized access.
+While collaboration is central to our work, we're equally committed to ensuring the protection and privacy of patient data. We've established a controlled research infrastructure that allows us to securely store and manage patient data (<BioMedIT.ch>). This infrastructure ensures that data is accessible to authorized researchers, while stringent privacy safeguards prevent unauthorized access.
 
 ## Benefits of Collaboration
 
@@ -23,5 +23,5 @@ Our collaborative approach has several benefits. It allows us to pool resources,
 
 ## Conclusion
 
-Through cross collaboration, SwissPedHealth is accelerating the pace of medical research and working towards the shared goal of improving patient care. By combining our resources and expertise, we're able to tackle some of the biggest challenges in pediatric health and push the boundaries of what's possible in medical research.
+Through cross collaboration, SwissPedHealth is accelerating the pace of pediatric medical research and working towards the shared goal of improving children's healthcare. By combining our resources and expertise, we're able to tackle some of the biggest challenges in pediatric health and push the boundaries of what's possible in medical research.
 

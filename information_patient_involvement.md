@@ -15,8 +15,8 @@ We involve patients at various stages of our research projects. This may include
 
 ## Do I have to contribute?
 
-No, while we encourage patient and family involvement, we never expect any time from patients or their families.
-Therefore, dedicated patient representitives generously contribute their attention to meet with doctors, scientists, and management to ensure that patient involvement is continously considered to help us build key resources.
+We encourage patient and family involvement, but we do not expect all patients or their families to contribute.
+Dedicated patient representatives generously contribute their attention to meet with doctors, scientists, and management to ensure that patient involvement is continuously considered to help us build key resources.
 
 ## Ensuring Openness and Fairness
 
@@ -25,4 +25,6 @@ Openness and fairness are key elements of our approach to patient involvement. W
 ## Conclusion
 
 At SwissPedHealth, patient involvement is not just a token gesture - it is a fundamental part of how we work. We believe that by involving patients in our research, we can better understand their needs and experiences, leading to the development of more effective and personalized treatments in our community.
+
+
 

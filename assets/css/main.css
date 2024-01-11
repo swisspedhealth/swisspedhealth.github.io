@@ -3834,7 +3834,8 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 			/* font-family: "Roboto Slab", serif; */
 			/* font-family: "Open Sans", sans-serif; */
 			font-family: 'IBM Plex Sans Condensed', sans-serif;
-			font-size: 1.125em;
+			/* font-size: 1.125em; */
+			font-size: 1.75em;
 		}
 
 		#header .icons {
@@ -3856,7 +3857,8 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 			}
 
 				#header .logo {
-					font-size: 1.25em;
+					/* font-size: 1.25em; */
+					font-size: 1.75em;
 					margin: 0;
 				}
 

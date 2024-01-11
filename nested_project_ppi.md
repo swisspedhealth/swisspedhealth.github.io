@@ -3,7 +3,7 @@ layout: page
 title: Patient and public involvement
 ---
 
-<h2 id="content">Patient and public involvement (PPI).</h2>
+## Patient and public involvement (PPI).
 
 ### Study Overview
 This project focuses on integrating child health data into a national data stream, SwissPedHealth. It aims to enhance healthcare quality for children by utilizing routine data from children's hospitals for research. A key component is the creation of a pediatric health dictionary, SwissPedData, which standardizes information gathered during hospital visits.

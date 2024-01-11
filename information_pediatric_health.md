@@ -13,7 +13,7 @@ The importance of pediatric health cannot be overstated. The early years of a ch
 
 At SwissPedHealth, our goal is to enhance pediatric health through advanced research, diagnostics, and treatments. We are dedicated to creating an environment that promotes the healthy growth and development of children.
 
-Our work spans several key areas of pediatric health, including genomics, clinical data analysis, and personalized medicine. We emphasize the involvement of patients and their families, recognizing that their insights and experiences are invaluable in our pursuit of advancing pediatric healthcare.
+Our work spans several key areas of pediatric health, including clinical data analysis, genomics, and personalized medicine. We emphasize the involvement of patients and their families, recognizing that their insights and experiences are invaluable in our pursuit of advancing pediatric healthcare.
 
 ## A Safe and Secure Environment
 
