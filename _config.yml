@@ -1,7 +1,7 @@
 # Site settings
 title: SwissPedHealth
 subtitle: by SPHN & PHRT
-email: swisspedhelth@proton.me
+email: swisspedhealth@proton.me
 description: Pediatric Personalized Research Network Switzerland (SwissPedHealth) - a Joint National Pediatric Data Stream
 # baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
 baseurl: "/" # the subpath of your site, e.g. /blog
