@@ -3832,115 +3832,129 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 
 /* Header */
 
-	/* #header { */
-	/* 	display: -moz-flex; */
-	/* 	display: -webkit-flex; */
-	/* 	display: -ms-flex; */
-	/* 	display: flex; */
-	/* 	border-bottom: solid 5px #da291c; */
-	/* 	padding: 6em 0 1em 0; */
-	/* 	position: relative; */
-	/* } */
-
-		/* #header > * { */
-		/* 	-moz-flex: 1; */
-		/* 	-webkit-flex: 1; */
-		/* 	-ms-flex: 1; */
-		/* 	flex: 1; */
-		/* 	margin-bottom: 0; */
-		/* } */
-
-		/* #header .logo { */
-		/* 	border-bottom: 0; */
-		/* 	color: inherit; */
-		/* 	font-family: 'IBM Plex Sans Condensed', sans-serif; */
-		/* 	/1* font-size: 1.125em; *1/ */
-		/* 	font-size: 1.75em; */
-		/* } */
-
-		/* #header .icons { */
-		/* 	text-align: right; */
-		/* } */
-
 #header {
   display: flex;
+  flex-direction: column;
   border-bottom: solid 5px #da291c;
-  position: relative;
   /* background: grey; */
-  align-items: center; 
+  align-items: center;
 }
 
-#header-top {
-  display: flex; 
-  /* align-items: center; */ 
+#header-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   width: 100%;
-  justify-content: space-between; /* This places logo on one end and icons on the other */
+  padding: 0; /* Reset any default padding */
+  margin: 0; /* Reset any default margin */
+}
+
+#header-icons .icons {
+  display: flex;
+  list-style: none; /* Removes default list styling */
+  padding: 0; /* Reset padding for the list */
+  margin: 0; /* Reset margin for the list */
+}
+
+#header-icons .icons li {
+  margin: 0; /* Reset margin for list items */
+  padding: 0; /* Reset padding for list items */
+}
+
+#header-icons .icons li a {
+  /* font-size: 1.25em; /1* Set icon size *1/ */
+  padding: 0; /* Reset padding for anchor tags */
+  margin: 0 0.5em; /* Add horizontal margin for spacing between icons */
+}
+
+
+#header-logo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
 }
 
 #header .logo {
   display: flex;
   align-items: center;
-  border-bottom: 0;
+  font-size: 1.75em;
   color: inherit;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-size: 1.75em;
-  /* background: white; */
+  color: inherit;
+  /* background: yellow; */
 }
 
+#header .logo .title-subtitle-block {
+  display: flex;
+  flex-direction: column;
+}
+
+#header .logo .title {
+	 /* font-weight: bold; /1* Most h1s are bold *1/ */
+		/* color: #3d4449; */
+		font-family: 'IBM Plex Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-decoration: none;
+		/* line-height: 1.5; */
+		/* margin: 0 0 1em 0; */
+		/* font-size: 2em; */
+		/* margin: 0 0 0.5em 0; */
+		/* line-height: 1.3; */
+  /* background: pink; */
+}
 
 #header .logo .subtitle {
-  font-size: 0.5em !important; /* Adjust to your desired size, use !important for testing */
+		/* color: #3d4449; */
+  font-size: 0.5em !important;
   padding-left: 0.5em;
   /* background: green; */
 }
 
 
-#header .icons {
-  display: flex;
-  justify-content: flex-end;
-  /* background: blue; */
-}
+/* Media Query for Screen Widths where Popup Menu Button Appears */
+@media screen and (max-width: 736px) {
+  #header-logo {
+    padding-left: 50px; /* Adjust this value based on the size of your popup menu button */
+  }
 
-/* #header .logo, #header .icons { */
-/*   display: flex; */
-/*   align-items: center; /1* Aligns items inside logo and icons *1/ */
-/* } */
+  #header .icons {
+    position: relative;
+    right: -30px;
+  }
+}
 
 /* Additional styling as needed */
 
 
-		@media screen and (max-width: 1680px) {
+		/* @media screen and (max-width: 1680px) { */
 
-			#header {
-				/* padding-top: 5em; */
-			}
+		/* 	#header { */
+		/* 		/1* padding-top: 5em; *1/ */
+		/* 	} */
 
-		}
+		/* } */
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) { */
 
-			#header {
-				/* padding-top: 6.5em; */
-			}
+		/* 	#header { */
+		/* 		/1* padding-top: 6.5em; *1/ */
+		/* 	} */
 
-				#header .logo {
-					/* font-size: 1.25em; */
-					font-size: 1.75em;
-					margin: 0;
-					padding-left: 2em;
-				}
 
-				#header .icons {
-					height: 5em;
-					/* line-height: 5em; */
-					line-height: 3em;
-					position: absolute;
-					right: -0.5em;
-					left: 2em;
-					top: 0;
-				}
+		/* 		#header .icons { */
+		/* 			/1* height: 5em; *1/ */
+		/* 			/1* line-height: 5em; *1/ */
+		/* 			/1* line-height: 3em; *1/ */
+		/* 			position: absolute; */
+		/* 			right: -0.5em; */
+		/* 			/1* left: 2em; *1/ */
+		/* 			top: 0; */
+		/* 		} */
 
-		}
+		/* } */
 
 /* Banner */
 
