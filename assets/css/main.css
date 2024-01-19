@@ -2094,7 +2094,7 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 		/* font-size: 14pt; */
 		font-size: 1em;
 		font-weight: 400;
-		line-height: 1.65;
+		line-height: 1.25;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -3879,12 +3879,20 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 #header .logo {
   display: flex;
   align-items: center;
-  font-size: 1.75em;
-  color: inherit;
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
-  font-size: 1.75em;
   color: inherit;
   /* background: yellow; */
+}
+
+#header .logo .logo-image {
+	/* width: min(80vw, 200px); /1* Adjust the vw value and min size as needed *1/ */
+	height: auto; /* Maintain aspect ratio */
+	max-width: 80px; /* Maximum width */
+}
+
+@media screen and (max-width: 736px) {
+	#header .logo .logo-image {
+	width: max(20vw, 30px); /* Smaller screens might need different values */
+	}
 }
 
 #header .logo .title-subtitle-block {
@@ -3894,7 +3902,8 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 
 #header .logo .title {
 	 /* font-weight: bold; /1* Most h1s are bold *1/ */
-		/* color: #3d4449; */
+		color: #3d4449;
+		font-size: 1.75em;
 		font-family: 'IBM Plex Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-decoration: none;
@@ -3907,24 +3916,55 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 #header .logo .subtitle {
-		/* color: #3d4449; */
-  font-size: 0.5em !important;
-  padding-left: 0.5em;
+	/* color: #3d4449; */
+	font-size: 0.5em !important;
+	padding-left: 0.5em;
   /* background: green; */
 }
 
 
 /* Media Query for Screen Widths where Popup Menu Button Appears */
 @media screen and (max-width: 736px) {
-  #header-logo {
-    padding-left: 50px; /* Adjust this value based on the size of your popup menu button */
-  }
+	#header-logo {
+		padding-left: 50px; /* Adjust this value based on the size of your popup menu button */
+		font-size: min(4vw, 1em); /* Responsive font size with a max limit */
+		/* background: green; */
+	}
 
-  #header .icons {
-    position: relative;
-    right: -30px;
-  }
+	#header .icons {
+		position: relative;
+		right: -30px;
+		font-size: min(4vw, 1em); /* Responsive font size with a max limit */
+	}
 }
+
+.logo-sponsers {
+	display: flex;
+	justify-content: flex-start; /* Align items to the left */
+	align-items: center; /* Center items vertically */
+	margin-top: 10px;
+	margin-bottom: -30px;
+	flex-wrap: wrap; /* Allows items to wrap in smaller screens */
+}
+
+.logo-image-sponsers {
+	width: 10vw; /* Scale with viewport width */
+	max-width: 200px; /* Maximum width */
+	min-width: 100px; /* Minimum width */
+	height: auto; /* Maintain aspect ratio */
+}
+
+/* Targeting the first image in .logo-sponsers */
+.logo-sponsers .logo-image-sponsers:first-child {
+  /* max-width: 300px; /1* Increase the maximum width *1/ */
+  min-width: 150px; /* Increase the minimum width */
+}
+
+/* @media screen and (max-width: 736px) { */
+/* 	.logo-image-sponsers { */
+/* 		width: 15vw; /1* Larger percentage for smaller screens *1/ */
+/* 	} */
+/* } */
 
 /* Additional styling as needed */
 
