@@ -155,6 +155,31 @@ layout: default
 		<h2 id="news">News</h2>
 	</header>
 	<div class="posts">
+
+		<!-- <article> -->
+		<!-- 		<h3><a href=" -->
+<!-- ">Header</a></h3> -->
+		<!-- 		<p>00.00.2023</p> -->
+		<!-- 		<p> -->
+                <!-- content -->
+<!-- </p> -->
+		<!-- </article> -->
+		<article>
+				<h3><a href="https://jamanetwork.com/journals/jama/fullarticle/2814297?guestAccessKey=4644a48b-cbde-49e8-8967-caf80aaf6817&utm_source=silverchair&utm_medium=email&utm_campaign=article_alert-jama&utm_content=olf&utm_term=012124&adv=000002739386">Sepsis in Children -  New globally valid diagnosis criteria</a></h3>
+				<p>25.01.2024</p>
+				<p>
+A groundbreaking study led by the 
+<a href="https://www.kispi.uzh.ch/kinderspital/news/sepsis-bei-kindern-bessere-diagnose-dank-neuer-global-gueltiger-kriterien?utm_source=webnews&utm_medium=mail&utm_campaign=forschung_sepsis">Kinderspital Zürich</a>, 
+employing artificial intelligence to analyze data from over 3.5 million children, has resulted in the development of the Phoenix Sepsis Score. This new tool provides a reliable method for diagnosing sepsis in children, which could significantly enhance early detection and treatment of this potentially fatal condition. The research, recognized for its global impact, has been published in 
+<a href="https://jamanetwork.com/journals/jama/fullarticle/2814297?guestAccessKey=4644a48b-cbde-49e8-8967-caf80aaf6817&utm_source=silverchair&utm_medium=email&utm_campaign=article_alert-jama&utm_content=olf&utm_term=012124&adv=000002739386">JAMA</a>
+and supports efforts to combat sepsis worldwide, and the 
+<a href="https://www.bag.admin.ch/bag/de/home/das-bag/organisation/ausserparlamentarische-kommissionen/eidgenoessische-qualitaetskommission-eqk/laufende-programme-und-projekte.html">national program for quality improvement in sepsis</a>.
+</p>
+		</article>
+
+
+
+
 		<article>
 				<h3><a href="
                 https://www.preprints.org/manuscript/202312.0373/v1
