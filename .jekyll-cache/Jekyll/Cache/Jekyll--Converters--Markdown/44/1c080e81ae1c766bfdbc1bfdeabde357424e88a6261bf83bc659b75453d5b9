@@ -1,10 +1,4 @@
----
-layout: page
-title: Our team
-<!-- image: assets/images/jonas-gerg-QtjF_Qm7aYc-unsplash.jpg -->
----
-
-<body>
+I"„<body>
 	<!-- <div class="team-card"> -->
 	<!-- 	<!-1- <a href="#" class="image"><img src="assets/images/medical-team-avatar/avatar_2.jpg" alt="" /></a> -1-> -->
 	<!-- 	<img src="assets/images/medical-team-avatar/avatar_2.jpg" alt="" /> -->
@@ -171,3 +165,4 @@ title: Our team
   </div>
 </div>
 </body>
+:ET

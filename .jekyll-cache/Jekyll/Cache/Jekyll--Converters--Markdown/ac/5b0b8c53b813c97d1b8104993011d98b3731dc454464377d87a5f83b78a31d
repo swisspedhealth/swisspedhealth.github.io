@@ -1,18 +1,15 @@
----
-layout: page
-title: Our team
-<!-- image: assets/images/jonas-gerg-QtjF_Qm7aYc-unsplash.jpg -->
----
+I"{<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- &lt;div class="team-card"&gt; --&gt;
+&lt;!-- 	&lt;!-1- &lt;a href="#" class="image"&gt;&lt;img src="assets/images/medical-team-avatar/avatar_2.jpg" alt="" /&gt;&lt;/a&gt; -1-&gt; --&gt;
+&lt;!-- 	&lt;img src="assets/images/medical-team-avatar/avatar_2.jpg" alt="" /&gt; --&gt;
+&lt;!-- 	&lt;h2&gt;Name 1&lt;/h2&gt; --&gt;
+&lt;!-- 	&lt;h3&gt;Title&lt;/h3&gt; --&gt;
+&lt;!-- 	&lt;p&gt;Responsible for management and strategic planning of the company. Works closely with other team members to ensure successful operations.&lt;/p&gt; --&gt;
+&lt;!-- &lt;/div&gt; --&gt;
+</code></pre></div></div>
 
 <body>
-	<!-- <div class="team-card"> -->
-	<!-- 	<!-1- <a href="#" class="image"><img src="assets/images/medical-team-avatar/avatar_2.jpg" alt="" /></a> -1-> -->
-	<!-- 	<img src="assets/images/medical-team-avatar/avatar_2.jpg" alt="" /> -->
-	<!-- 	<h2>Name 1</h2> -->
-	<!-- 	<h3>Title</h3> -->
-	<!-- 	<p>Responsible for management and strategic planning of the company. Works closely with other team members to ensure successful operations.</p> -->
-	<!-- </div> -->
 <div class="team-container">
+    
   <div class="team-card">
     <img src="assets/images/medical-team-avatar/avatar_2.jpg" alt="" />
     <h2>Prof. Schlapbach, Luregn</h2>
@@ -171,3 +168,4 @@ title: Our team
   </div>
 </div>
 </body>
+:ET
