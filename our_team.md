@@ -26,25 +26,25 @@ title: Our team
     <p>Assistant Professor (Tenure Track), Head of the group “Medical Data Science" ETH Zurich</p>
   </div>
   <div class="team-card">
-    <img src="assets/images/our_team/avatar_2.jpg" alt="" />
+    <img src="assets/images/our_team/claudiakuehni.jpg" alt="" />
     <h2>Kuehni, Claudia</h2>
     <h3>SPHN Co-applicant</h3>
     <p>Associated Professor, Head of Pediatric Epidemiology University of Bern</p>
   </div>
   <div class="team-card">
-    <img src="assets/images/our_team/avatar_2.jpg" alt="" />
+    <img src="assets/images/our_team/Bielicki_Julia_crop.png" alt="" />
     <h2>Bielicki, Julia</h2>
     <h3>SPHN Co-applicant</h3>
     <p>Senior Consultant Pediatric Infectious Diseases and Head of Pediatric Research Center</p>
   </div>
   <div class="team-card">
-    <img src="assets/images/our_team/avatar_2.jpg" alt="" />
+    <img src="assets/images/our_team/Klara-Posfay-Barbe.jpg" alt="" />
     <h2>Posfay-Barbe, Klara</h2>
     <h3>SPHN Co-applicant</h3>
     <p>Head of Division of General Pediatrics Hopitaux Universitaires de Geneve</p>
   </div>
   <div class="team-card">
-    <img src="assets/images/our_team/avatar_2.jpg" alt="" />
+    <img src="assets/images/our_team/Baumgartner-scaled.jpeg" alt="" />
     <h2>Baumgartner, Matthias</h2>
     <h3>SPHN Co-applicant</h3>
     <p>Professor of Metabolic Diseases, University of Zurich</p>
