@@ -3874,12 +3874,16 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
   width: 100%;
   text-decoration: none;
   color: inherit;
+  text-decoration: none; /* Removes underline from text */
+  border-bottom: none; /* Removes borders from the bottom */
 }
 
 #header .logo {
   display: flex;
   align-items: center;
   color: inherit;
+  text-decoration: none; /* Removes underline from text */
+  border-bottom: none; /* Removes borders from the bottom */
   /* background: yellow; */
 }
 
@@ -3913,6 +3917,8 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 		/* margin: 0 0 0.5em 0; */
 		/* line-height: 1.3; */
   /* background: pink; */
+		text-decoration: none; /* Removes underline from text */
+ 		border-bottom: none; /* Removes borders from the bottom */
 }
 
 #header .logo .subtitle {
@@ -3928,6 +3934,8 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 	#header-logo {
 		padding-left: 50px; /* Adjust this value based on the size of your popup menu button */
 		font-size: min(4vw, 1em); /* Responsive font size with a max limit */
+		text-decoration: none; /* Removes underline from text */
+ 		border-bottom: none; /* Removes borders from the bottom */
 		/* background: green; */
 	}
 
@@ -3953,6 +3961,13 @@ font-family: 'IBM Plex Sans Condensed', sans-serif;
 	min-width: 100px; /* Minimum width */
 	height: auto; /* Maintain aspect ratio */
 }
+
+.right-aligned {
+  margin-left: auto; /* Pushes the container to the right */
+  display: flex;
+  align-items: center;
+}
+
 
 /* Targeting the first image in .logo-sponsers */
 .logo-sponsers .logo-image-sponsers:first-child {
